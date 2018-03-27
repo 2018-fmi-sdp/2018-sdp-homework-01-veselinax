@@ -88,7 +88,7 @@ int main()
             
             int sum = registers[reg2] + registers[reg3];
             if (sum > 100 || sum < -100) {
-                cout << "ERROR" << endl;
+                cout << "ERROR:overflow" << endl;
                 continue; // next loop of the repl
             }
             
